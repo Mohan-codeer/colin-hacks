@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "com.colinhack.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"ExampleClientMixin",
+		"MinecraftAccessor",
+		"MinecraftTickMixin",
+		"ESPMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
